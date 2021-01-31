@@ -43,7 +43,6 @@ class App extends Component {
                 <button onClick={(event) => (counter >= 0) ? this.handleClick(event) : null}>Decrement</button> */}
 
                 <button onClick={(event) => {
-                    // fetchData()
                     sliced_Data(fullData, counter)
                     increment(counter)
                     console.log("Ap.js Props", this.props)
