@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 0px 3px;
+  color: white;
+  background-color: rgb(204, 112, 204);
+  border: 2px solid rgba(204, 112, 204);
+  transition: all 0.2s ease;
+}
+button:hover {
+  opacity: 0.99;
+}
+
+button:active {
+  transform: scale(0.95);
+  /* transform: rotate(-180deg); */
+}
+/* button:nth-child(2n):active {
+  transform: scale(0.95);
+  transform: rotate(180deg);
+} */
+
+/* button:nth-of-type(4):active {
+  transform: scale(0.95);
+  transform: rotate(90deg);
+} */
+
+button:focus {
+  outline: none  !important
+}
